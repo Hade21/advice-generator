@@ -3,7 +3,7 @@ import Logo from "../../images/icon-dice.svg";
 
 const Card = (props) => {
   return (
-    <div className="card bg-dark-grayish-blue rounded-lg w-1/3 text-center pt-8 mx-auto relative top-1/3">
+    <div className="card bg-dark-grayish-blue rounded-lg sm:w-1/2 md:w-1/3 w-5/6 text-center pt-8 mx-auto relative top-1/4 shadow-xl">
       <div className="text pb-6">
         <h3 className="font-manrope text-neon-green mb-4 tracking-[5px] text-sm">
           ADVICE #<span className="id">{props.adid}</span>

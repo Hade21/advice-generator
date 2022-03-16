@@ -26,7 +26,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div className="main font-manrope bg-dark-blue w-screen h-screen absolute">
+      <div className="main font-manrope bg-dark-blue w-screen h-screen absolute overflow-auto">
         <Card
           adid={this.state.advice.id}
           advice={this.state.advice.advice}
